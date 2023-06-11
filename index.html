@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Foto galerija</title>
+</head>
+
+<body>
+
+    <h1>ФОТО ГАЛЕРИЈА</h1>
+
+    <!--Kreiranje dela za navigaciju-->
+    <div id="navigacija">
+        <button class="link"><a href="index.html"><h3>Почетна</h3></a></button>
+        <button class="link"><a href="Oautoru.html"><h4>О аутору</h4></a></button>
+        <button class="link"><a href="UPUTSTVO.html"><h4>Упутство</h4></a></button>
+        <p>Завршни испит</p>
+    </div>
+
+    <!--Pravljenje galerije-->
+    <div class="galery">
+        <h2 class="naslov">Седам светских чуда</h2>
+        <p class="info">Седам светских чуда старог света је скуп архитектонских дела које су стари Грци, нарочито у хеленистичкој епохи, сматрали врхунцем људске креативности и генијалности. Међутим, од ових седам чуда још само комплекс великих пирамида у Гизи и дан данас постоји.</p>
+
+        <!--Ubacivanje slika-->
+        <img src="slike/sedam-svetskih-cuda-lokacije.png" alt="sedamsvetskihcuda" id="glavna">
+
+        <div id="images">
+            <img src="slike/sedam-svetskih-cuda-lokacije.png" alt="sedamsvetskihcuda" class="slika" onclick="zameni(0)">
+
+            <img src="slike/artemidin-hram.jpg" alt="artemidinhram" class="slika" onclick="zameni(1)">
+
+            <img src="slike/faros-u-aleksandriji.jpg" alt="farosualeksandriji" class="slika" onclick="zameni(2)">
+
+            <img src="slike/keopsova-piramida.jpg" alt="keopspvapiramida" class="slika" onclick="zameni(3)">
+
+            <img src="slike/kolos-sa-rodosa.jpg" alt="kolossarodosa" class="slika" onclick="zameni(4)">
+
+            <img src="slike/mauzolej-u-harnikanasu.jpg" alt="mauzolejuharnikanasu" class="slika" onclick="zameni(5)">
+
+            <img src="slike/statua-zevsa-u-olimpiji.jpg" alt="statuazevsa" class="slika" onclick="zameni(6)">
+
+            <img src="slike/viseci-vrtovi-vavilon.jpg" alt="visecivrtovivavilon" class="slika" onclick="zameni(7)">
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

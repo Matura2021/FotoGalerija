@@ -1,0 +1,94 @@
+/* Stilizovanje navigacije */
+#navigacija{
+    display: flex;
+    background-color: #2B5480;
+    align-items: center
+}
+
+#navigacija > button{
+    display: flex;
+    background-color: #2B5480;
+    color: white;
+    border: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#navigacija > p{
+    display: flex;
+    margin-left: auto;
+    padding-right: 1%;
+    color: white ;
+}
+
+/* Stilizovanje headinga*/
+h1{
+    display: flex;
+    color: #2B5480;
+}
+
+h3 {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+h4 {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+/*body*/
+body{
+    background-color: #B4D9EB;
+}
+
+/* Uredhivanje galerije */
+.galery {
+    background-color: #2B5480;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 4%;
+    width: 75%;
+    height: 90%;
+    overflow: hidden;
+}
+
+/* Uredjivanje naslova */
+.naslov {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* uredjivajne ostalog */
+.info {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.slika {
+    width: 96px;
+    height: 60px;
+    padding: 0.5%;
+}
+
+/* id-ovi */
+#glavna {
+    width: 640px;
+    height: 480px;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
